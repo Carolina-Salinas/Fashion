@@ -1,0 +1,382 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title=pageTitle
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
+		link(rel="stylesheet",href="css/font-awesome.min.css")
+		link(rel="stylesheet",href="css/icomoon.css")
+		link(rel="stylesheet",href="css/bootstrap.min.css")
+		link(rel="stylesheet",href="css/main.css")
+
+		script(src="js/jquery-1.12.3.min.js")
+		script(src="js/bootstrap.min.js")
+
+
+	body
+		.header
+			.navbar.navbar-default(style="margin-bottom: 0px")
+				.container
+					bs-example-navbar-collapse-1.collapse.navbar-collapse
+					ul.nav.navbar-nav.list-menu
+						li.pull-left
+							p Default Welcome Msg!
+						li.pull-right.dropdown
+							a.color_black(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false")<span class="fa fa-user" aria-hidden="true"> My Account <span class="fa fa-chevron-down"></span>
+							ul.dropdown-menu
+								li
+									a.color_black(href="#") LOgin
+								li
+									a.color_black(href="#") Registrer
+						li.pull-right.dropdown
+							a.color_black(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false")<span class="fa fa-usd" aria-hidden="true">Currency<span class="fa fa-chevron-down"></span>
+							ul.dropdown-menu
+								li
+									a.color_black(href="#") Pay account
+								li
+									a.color_black(href="#") Credit card
+						li.pull-right.dropdown.bandera
+							a.color_black(href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false")<img class="img-responsive" src="images/flag1.png" style= "padding: 5px"> Language <span class="fa fa-chevron-down"></span>
+							ul.dropdown-menu
+								li
+									a.color_black(href="#") English
+								li
+									a.color_black(href="#") Spanish
+		.hero
+			.container
+				.row.font_white
+					.col-md-4.text-center
+						.col-xs-4
+							i.fa.fa-clock-o.reloj.pull-right
+						.col-xs-8
+							h4 OPENING TIME
+							P 9.00 AM - 10.00 PM
+					.col-md-4.text-center
+						img( clas= "img-responsive" src="images/logo.png")
+					.col-md-4.text-center
+						.input-group
+						input.form-control(type="text" placeholder="Search")
+		.menu
+			.nadvar.navbar-default
+				.container
+					bs-example-navbar-collapse-1.collapse.navbar-collapse
+					ul.nav.navbar-nav.list-menu
+						li.menu.pull-left.d-ib
+							a(href="#") Home
+						li.submenu.pull-left.d-ib
+							a(href="#") Contact Us
+						li.pull-right.dropdown.d-ib.hover_buy
+							a(href="#" class="dropdown-toggle" style= "padding: 0px" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false") <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> My Cart 
+								p 2 items(s)-$244.00<span class="caret"></span>
+							ul.dropdown-menu.panel-content
+								li
+									.row
+										.col-md-5
+											img(src="images/cart-1.jpg")
+										.col-md-7.pd-0
+											p Aliquam Consequat
+											p 1 x $500
+									
+								li
+									a.color_black(href="#") Contacto
+		.section_part1
+			.row.font_hero
+		.section
+			.container
+				.row.pictures_border
+					.col-md-5.text-center
+						img(src="images/banner1.jpg")
+					.col-md-7.text-center
+						img(src="images/banner2.jpg")
+		.barra
+			.container
+				.row
+					div.lineas_text.text-center
+						ul.fa.fa-chevron-left.list-unstyle.list-inline
+							li
+								a(href="#") CLOTHING
+							li
+								a(href="#") EQUIPEMENTS
+							li
+								a(href="#") JEWELLERY
+							i.fa.fa-chevron-right
+					div.lineas-decoration
+		.Productos
+			.container 
+				.row.text-center
+					.col-md-3
+						.thumbnail
+							img(src="images/a1.jpg")
+							.caption
+								h4 Deliver Wide
+								.rating
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star-o
+									i.fa.fa-star-o
+								p.precio $218.00
+					.col-md-3
+						.thumbnail
+							img(src="images/b1.jpg")
+							.caption
+								h4 Deliver Wide
+								.rating
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star-o
+									i.fa.fa-star-o
+								p.precio $218.00
+					.col-md-3
+						.thumbnail
+							img(src="images/c1.jpg")
+							.caption
+								h4 Deliver Wide
+								.rating
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star-o
+									i.fa.fa-star-o
+								p.precio $218.00
+					.col-md-3
+						.thumbnail
+							img(src="images/d1.jpg")
+							.caption
+								h4 Deliver Wide
+								.rating
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star-o
+									i.fa.fa-star-o
+								p.precio $218.00
+		.banners
+			.container
+				.row.client
+					.col-md-2
+						img.img-responsive(src="images/client1.jpg")
+					.col-md-2
+						img.img-responsive(src="images/client2.jpg")
+					.col-md-2
+						img.img-responsive(src="images/client3.jpg")
+					.col-md-2
+						img.img-responsive(src="images/client4.jpg")
+					.col-md-2
+						img.img-responsive(src="images/client5.jpg")
+					.col-md-2
+						img.img-responsive(src="images/client6.jpg")
+		.barra2
+			.container
+				.row
+					div.lineas_text.text-center
+						ul.fa.fa-chevron-left.list-unstyle.list-inline
+							li
+								a(href="#") CLOTHING
+							li
+								a(href="#") EQUIPEMENTS
+							li
+								a(href="#") JEWELLERY
+							i.fa.fa-chevron-right
+
+		.clothing
+			.container
+				.row.botonbuy
+					.col-md-4
+						.col-md-6.thumbnail
+							img(src="images/a2.jpg")
+						.col-md-6
+							p Deliver Wide
+							p.precio $218.00
+							span
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star-o
+								i.fa.fa-star-o
+							button.btn.btn-default
+								i.fa.fa-shopping-cart ADD TO CART
+					.col-md-4
+							.col-md-6.thumbnail
+								img.img-responsive(src="images/d2.jpg")
+							.col-md-6
+								p Deliver Wide
+								p.precio $218.00
+								span
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star-o
+									i.fa.fa-star-o
+								button.btn.btn-default
+									i.fa.fa-shopping-cart ADD TO CART
+					.col-md-4
+							.col-md-6.thumbnail
+								img.img-responsive(src="images/g2.jpg")
+							.col-md-6
+								p Deliver Wide
+								p.precio $218.00
+								span
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star-o
+									i.fa.fa-star-o
+								button.btn.btn-default
+									i.fa.fa-shopping-cart ADD TO CART
+				.row.botonbuy
+					.col-md-4
+						.col-md-6.thumbnail
+							img.img-responsive(src="images/h1.jpg")
+						.col-md-6
+							p Deliver Wide
+							p.precio $218.00
+							span
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star-o
+								i.fa.fa-star-o
+							button.btn.btn-default
+								i.fa.fa-shopping-cart ADD TO CART
+					.col-md-4
+						.col-md-6.thumbnail
+							img.img-responsive(src="images/c2.jpg")
+						.col-md-6
+							p Deliver Wide
+							p.precio $218.00
+							span
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star-o
+								i.fa.fa-star-o
+							button.btn.btn-default
+								i.fa.fa-shopping-cart ADD TO CART
+					.col-md-4
+						.col-md-6.thumbnail
+							img.img-responsive(src="images/e2.jpg")
+						.col-md-6
+							p Deliver Wide
+							p.precio $218.00
+							span
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star-o
+								i.fa.fa-star-o
+							button.btn.btn-default
+								i.fa.fa-shopping-cart ADD TO CART
+		.barra3
+			.container
+				.row
+					div.lineas_text.text-center
+						ul.fa.fa-chevron-left.list-unstyle.list-inline
+							li
+								a(href="#") BLOG
+							i.fa.fa-chevron-right					
+				.row.blogger
+					.col-md-3
+						img.img-responsive(src="images/blog2.jpg")
+						h5 THE SAMPLE HEADING
+						p 27/11/2015
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						p.read 
+							a(href="#") Read more...
+					.col-md-3
+						img.img-responsive(src="images/blog1.jpg")
+						h5 THE SAMPLE HEADING
+						p 27/11/2015
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						p.read 
+						a(href="#") Read more...	
+					.col-md-3
+						img.img-responsive(src="images/blog2.jpg")
+						h5 THE SAMPLE HEADING
+						p 27/11/2015
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						p.read 
+							a(href="#") Read more...
+					.col-md-3
+						img.img-responsive(src="images/blog3.jpg")
+						h5 THE SAMPLE HEADING
+						p 27/11/2015
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						p.read 
+							a(href="#") Read more...
+		.footer
+			.container
+				.row.social_media
+					.col-md-5
+						.col-md-8
+							.row
+								h4 ACCESORIES
+								P  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quasi error suscipit odit tempore distinctio reiciendis magni, ab totam quia quas, non, illo nemo voluptatum. 
+							.row.redes
+								.col-md-2
+									div.fa.fa-facebook
+								.col-md-2
+									div.fa.fa-twitter
+								.col-md-2
+									div.fa.fa-rss
+								.col-md-2
+									div.fa.fa-skype
+								.col-md-2
+									div.fa.fa-dribbble
+						.col-md-4 
+							h4 MY ACCOUNT
+							ul
+							li.fa.fa-caret-right
+								a(href="#") Order History
+							li.fa.fa-caret-right
+								a(href="#") Wish List
+							li.fa.fa-caret-right
+								a(href="#") Privacy Policy
+							li.fa.fa-caret-right
+								a(href="#") Newlester
+					.col-md-7
+						.col-md-3
+							h4 INFORMATION
+							ul
+							li.fa.fa-caret-right
+								a(href="#") Order History
+							li.fa.fa-caret-right
+								a(href="#") Wish List
+							li.fa.fa-caret-right
+								a(href="#") Privacy Policy
+							li.fa.fa-caret-right
+								a(href="#") Newlester
+						.col-md-3
+							h4 EXTRAS
+							ul.list-menu
+							li.fa.fa-caret-right
+								a(href="#") Order History
+							li.fa.fa-caret-right
+								a(href="#") Wish List
+							li.fa.fa-caret-right
+								a(href="#") Privacy Policy
+							li.fa.fa-caret-right
+								a(href="#") Newlester
+						.col-md-6
+							h4 ABOUT US
+								ul.list-unstyle
+								li
+									i.fa.fa-map-marker 
+									p 8901 Marmora Road, Glasgow D04 89 Gr, New York
+								li
+									i.fa.fa-phone
+									p (0123)456789 (0987)654321
+								li
+									i.fa.fa-envelope
+									p admin@bootexperts.com
+		.piepagina
+			.container
+				.row.pie
+					.col-md-6
+						p Copyright
+							i.fa.fa-copyright 2015<span class="ultimo">BootExperts</span> All rigth reserved	
+					.col-md-6
+						img.img-responsive.pull-right(src="images/payment.png")
+		
