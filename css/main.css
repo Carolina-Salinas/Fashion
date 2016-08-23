@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-* {
-  outline: 1px solid green;
-}
-
 .pd-0 {
   padding: 0;
 }
